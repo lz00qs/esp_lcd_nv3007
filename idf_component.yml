@@ -2,7 +2,7 @@ dependencies:
   cmake_utilities: 0.*
   idf: '>=4.4'
 description: ESP LCD NV3007(SPI)
-issues: 
+issues: https://github.com/lz00qs/esp_lcd_nv3007/issues
 repository: git://github.com/lz00qs/esp_lcd_nv3007.git
 # repository_info:
 #   commit_sha: 1f855ac00e3fdb33773c8ba5893d4f98f1d9b576
