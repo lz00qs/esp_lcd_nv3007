@@ -9,11 +9,11 @@ extern "C"
 
 #define NV3007_PANEL_BUS_SPI_CONFIG(sclk, mosi, max_trans_sz) \
     {                                                         \
-        .sclk_io_num = sclk,                                  \
         .mosi_io_num = mosi,                                  \
         .miso_io_num = -1,                                    \
-        .quadhd_io_num = -1,                                  \
+        .sclk_io_num = sclk,                                  \
         .quadwp_io_num = -1,                                  \
+        .quadhd_io_num = -1,                                  \
         .max_transfer_sz = max_trans_sz,                      \
     }
 
