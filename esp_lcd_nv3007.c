@@ -189,7 +189,6 @@ static const nv3007_lcd_init_cmd_t vendor_specific_init_default[] = {
     {0x44, (uint8_t[]){0x00, 0x10}, 2, 0},
     {0x46, (uint8_t[]){0x10}, 1, 0},
     {0xff, (uint8_t[]){0x00}, 1, 0},
-    {0x3a, (uint8_t[]){0x05}, 1, 0},
 
     // direction
     // {0x36, (uint8_t[]){0x00}, 1, 0},
